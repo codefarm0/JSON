@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'json'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.everit.json', name: 'org.everit.json.schema', version: '1.5.1'
+
+}

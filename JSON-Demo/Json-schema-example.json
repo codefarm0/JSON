@@ -1,0 +1,27 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "title": "Youtube Channel",
+   "description": "Youtube Channel for software development training",
+   "type": "object",
+
+   "properties": {
+
+      "id": {
+         "description": "The unique identifier for a product",
+         "type": "integer"
+      },
+
+      "name": {
+         "description": "Name of the the channle",
+         "type": "string"
+      },
+
+      "cost": {
+         "type": "number",
+         "minimum": 100,
+		 "maximum":10000
+      }
+   },
+
+   "required": ["id", "name", "cost"]
+}
